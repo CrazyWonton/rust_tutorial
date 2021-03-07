@@ -1,4 +1,5 @@
 mod print;
+mod vars;
 
 fn main() {
 	// Printing 
@@ -21,4 +22,6 @@ fn main() {
 
 	// Basic math
 	println!("10 + 10 = {}", 10+10);
+
+	vars::run();
 }
